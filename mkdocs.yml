@@ -10,6 +10,7 @@ edit_uri: edit/main/docs/
 nav:
   - 关于:
     - 简介: 'index.md'
+  - 客户端安装: 'client-install.md'
   #   - 如何参与: '关于/如何参与.md'
   #   - 格式手册: '关于/格式手册.md'
   # - 基础设施:
@@ -62,8 +63,26 @@ theme:
     - content.action.view
     - content.code.copy
     - toc.follow
+  palette:
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
 
 markdown_extensions:
+  - toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
   # Images https://squidfunk.github.io/mkdocs-material/reference/images/
   - attr_list
   - md_in_html
