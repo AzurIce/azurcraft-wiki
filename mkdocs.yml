@@ -9,8 +9,13 @@ edit_uri: edit/main/docs/
 # Contents
 nav:
   - 关于:
-    - 简介: 'index.md'
-  - 客户端安装: 'client-install.md'
+    - 简介: index.md
+    - 有关 AzurCraft: about/azurcraft.md
+  - 客户端安装: client-install.md
+  - mod:
+    - 概述: mod/index.md
+    - Ice 工具: mod/tool-ice.md
+    - Mod 介绍: mod/intro.md
 
 # Theme
 theme: 
@@ -79,7 +84,7 @@ markdown_extensions:
       linenums: true
       linenums_style: table
       anchor_linenums: true
-  - pymdownx.blocks.tab:
+  - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.arithmatex:
       generic: true
