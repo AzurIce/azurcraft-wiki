@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "azurcraft-wiki"
+version = "0.1.0"
+description = ""
+authors = ["AzurIce <973562770@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs = "^1.6.0"
+mkdocs-material = "^9.5.28"
+mkdocs-glightbox = "^0.4.0"
+mkdocs-git-revision-date-localized-plugin = "^1.2.6"
+mkdocs-git-committers-plugin-2 = "^2.3.0"
+mkdocs-mermaid2-plugin = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
