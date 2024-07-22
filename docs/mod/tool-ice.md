@@ -20,10 +20,11 @@
 
 首先，把 `mods.toml` 丢到要下载 Mod 的文件夹（比如 `.minecraft/mods`）。
 
-然后在这个目录下运行 `ice mod sync`，则会根据 `mods.toml` 下载缺失的 Mod。
+然后在这个目录下运行 `ice modrinth sync`，则会根据 `mods.toml` 下载缺失的 Mod，更新版本不对的 Mod，删除多余的 Mod（仅限于 Modrinth 上的 Mod）。
 
-使用 `ice mod update`，可以将 Mod 更新到符合 `loader` 和 `version` 要求的最新版本，并且更新 `mods.toml`。
+使用 `ice modrinth update`，可以将 Mod 更新到符合 `loader` 和 `version` 要求的最新版本，并且更新 `mods.toml`。
 
-使用 `ice mod add <slug>`，可以添加一个 Mod（这里的 `<slug>` 是 Modrinth 的 Mod 页面 Url 中的 Mod 英文名）。
+
+使用 `ice modrinth add <slug>`，可以添加一个 Mod（这里的 `<slug>` 是 Modrinth 的 Mod 页面 Url 中的 Mod 英文名）。
 
 更多详细内容可以看 Ice 的仓库。
