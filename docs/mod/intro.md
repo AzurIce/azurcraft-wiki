@@ -82,7 +82,7 @@
 
     > slug: `physicsmod`
 
-    ![intro-7](./_assets/intro-7.webp)
-    ![intro-8](./_assets/intro-8.webp)
+    ![intro-7](./_assets/intro-7.png)
+    ![intro-8](./_assets/intro-8.png)
 
     很多可配置的酷炫的物理效果。
